@@ -1,0 +1,73 @@
+body {
+  display: flex; /* フレックスボックスを使用して中央揃え */
+  justify-content: center; /* 水平方向の中央揃え */
+  align-items: center; /* 垂直方向の中央揃え*/
+  height: 100vh; /* ビューポートの高さに合わせる */
+  margin: 0; /* マージンをなしにする */
+  background-color: #f0f0f0; /* 背景色を設定 */
+  font-family: Arial, sans-serif; /* フォントを設定 */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center; /* テキストを中央揃え */
+  width: 100vw;
+  height: 100vh;  
+}
+
+input {
+  height: 24vh; /* 高さを設定 */
+  margin: 32px auto; /* アイコンを中央に配置する */  
+}
+
+.icon {
+  display: none;
+  width: 24vh; /* 幅を設定 */
+  height: 24vh; /* 高さを設定 */
+  border-radius: 50%; /* 丸い形にする */
+  border: solid;
+  margin: 32px auto; /* アイコンを中央に配置する */  
+}
+
+#channelIcon:hover {
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 32px; /* フォントサイズを設定 */
+  margin: 0; /* マージンなし */
+}
+
+.counter {
+  font-weight: bold;
+  position: relative; /* 相対位置に設定 */
+  font-size: 32vh; /* フォントサイズを設定 */
+  height: 32vh; /* 高さを設定 */
+  overflow: hidden; /* はみ出した部分を隠す */
+  margin: auto 0 32px 0;
+}
+
+.current, .next {
+  position: absolute; /* 絶対位置に設定 */
+  width: 100%; /* 幅を100%に設定 */
+  transition: transform 2s ease-in-out; /* アニメーションのトランジションを設定 */
+}
+
+#current {
+  transform: translateY(0); /* 縦方向の位置を0に設定 */
+}
+
+#next {
+  transform: translateY(100%); /* 縦方向の位置を100%に設定 */
+}
+
+p {
+  font-size: 32px; /* フォントサイズを設定 */
+  margin: 0 0 auto 0; /* 上マージンをオート設定 */
+}
+
+small {
+  color: gray;
+  margin: 8px 0;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Counter Shorts Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <!-- チャンネルアイコンの画像 -->
+    <input type="file" id="iconUpload" accept="image/*">
+    <img src="" alt="Channel Icon" class="icon" id="channelIcon" style="display: none;">
+    <!-- チャンネル名 -->
+    <h1 id="channelName"></h1>
+    <!-- カウンターのコンテナ -->
+    <div class="counter" id="counter">
+      <div class="current" id="current">0</div>
+      <div class="next" id="next">1</div>
+    </div>
+    <!-- 登録者数のテキスト -->
+    <p>Subscribers</p>
+    <small>Counter Shorts Generator created by 緑葉ミクロ Micro Midoriha</small>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
