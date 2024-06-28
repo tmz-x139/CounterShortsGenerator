@@ -62,7 +62,7 @@ h1 {
   transform: translateY(100%); /* 縦方向の位置を100%に設定 */
 }
 
-p {
+.unit {
   font-size: 32px; /* フォントサイズを設定 */
   margin: 0 0 auto 0; /* 上マージンをオート設定 */
 }
