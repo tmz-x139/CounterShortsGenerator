@@ -5,8 +5,7 @@ YouTubeの登録者カウンター画面を模したサイトです。
 カウンターショート動画を簡単に作れます。
 
 ## 使い方
-サイトにアクセスします。
-https://tmz-x139.github.io/CounterShortsGenerator/
+<a href="https://tmz-x139.github.io/CounterShortsGenerator/" target="_blank">ページ</a>にアクセスします。
 
 アクセスすると、チャンネル名、登録者の初期値、登録者が増えるまでの待機時間（秒）を聞かれるので入力します。
 入力後、「ファイルを選択」のボタンが現れるので。そこからアイコンをアップロードしてください。（正方形推奨）
